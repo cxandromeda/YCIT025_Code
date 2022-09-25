@@ -9,3 +9,11 @@ git add Class_02
 git status
 git commit -m "My commit message here"
 git push -u origin master
+
+git mkdir            ---folder
+git touch             ---file
+rm -- delete
+rm _rf .git
+git log
+git reset commitID --hard
+
