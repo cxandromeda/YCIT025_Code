@@ -1,0 +1,11 @@
+
+checkout - navigating branches and merge - join >2 different work into a single branch
+
+ls listing
+ls -l long listing
+cd 
+
+git add Class_02
+git status
+git commit -m "My commit message here"
+git push -u origin master
