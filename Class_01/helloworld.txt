@@ -5,7 +5,7 @@ ls listing
 ls -l long listing
 cd 
 
-git add Class_02
+git add Class_02  / git add .
 git status
 git commit -m "My commit message here"
 git push -u origin master
@@ -16,4 +16,31 @@ rm -- delete
 rm _rf .git
 git log
 git reset commitID --hard
+git branch 
+git branch -d (filename)/-D  ------delete
+git checkout     -----change branch
+git checkout -b    -----create and change branch
+git merge (branch name)
 
+touch .gitignore 
+
+Press Esc to enter Command mode, and then type :wq to write and quit the file.
+
+git remote add origin git@github.com:bren-wood/ClassWorkFolder.git  / add romote repositories
+
+git remote origin 
+
+git push origin master / git push --set-upstream origin master   //banding branch
+git push -u origin master 
+git clone (address)
+
+git fetch
+
+git pull  -----fetch + merge
+
+vi (filename) -----terminal open editor
+
+
+ssh-keygen -t rsa ------generate ssh key
+
+cat ~/.ssh/id_rsa.pub ------review
